@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+a:hover{color:yellowgreen;text-decoration:none;}
+a{text-decoration:none;color:#898989;}
+body{position:relative;}
+#header{height:113px;} 
+.head{padding-top:43px;}
+.head1{width:480px;float:left;}
+.head1 img{margin-left:208px;}
+.head2{float:left;}
+.head2 ul{list-style:none;}
+.head2 ul>li{float: left;}
+
+.btun{width:42%;overflow: hidden;margin: auto;}
+.btun ul{display:none;margin:0;width:3000px;height:118px;padding-top:20px;}
+.btun ul li{list-style:none;width:5.5%;float:left;}
+.btun ul li p{text-align: center;color:#898989;margin-top: 5px;}
+.btun ul li a img{margin: auto;display: block;}
+
+.xian{display: block!important;}
+.head2 ul li:hover .btu{display:block;}
+.head2 a{text-decoration:none;margin-right:55px;color:#898989;float:left;}
+.head2 a:hover{color:yellowgreen;}
+.head3{float:right;width:357px;}
+.head3 img{margin-right:28px;}
+.mid p{color:#898989;margin:0 0 35px 0;}
+.mid p font{color:yellowgreen;}
+.center{width: 72%;margin: auto;}
+.no{display:none;}
+
+.bi{width:72%;margin:20px auto;height:1900px;display:flex;justify-content: space-between;flex-wrap: wrap;align-content: space-between;}
+.bi>div{width:24%;height:365px;background: #f7f7f7;position:relative;padding: 270px 0 0 27px; cursor: pointer;background-image:url(../img/1491507097825143831.png);background-size:100% ;background-repeat: no-repeat;}
+
+.bi div p{margin-bottom:4px;}
+.bi div p:nth-child(1){font-size:14px;color: #999;}
+.bi div p:nth-child(3){color:yellowgreen;}
+.bi div div{display:none;position: absolute;top:317px;left: 26px;width:100%;}
+.bi div div a{float:left;margin-right: 10%;border-radius: 5px;width:34%;height:26px;background:#dbdbdb;line-height:26px;text-align: center;font-size:12px;color:white;}
+.bi div div a:nth-child(2){background:	#9ACD32;}
+.bi div div a:nth-child(1):hover{background:#E3E3E3;text-decoration:none;}
+.bi div div a:nth-child(2):hover{background:#6B8E23;text-decoration:none;}
+#footer div{width:80px;float:left;margin-right:130px;}
+#footer div a{text-decoration:none;color:#5b5b5b;}
+#footer div a:hover{color:yellowgreen;}
+#footer div p{margin-bottom: 10px;}
+#footer{background:#fafafa;padding:70px 0 250px 200px;}
